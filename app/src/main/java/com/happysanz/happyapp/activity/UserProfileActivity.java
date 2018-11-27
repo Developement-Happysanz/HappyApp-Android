@@ -1,4 +1,6 @@
 package com.happysanz.happyapp.activity;
 
-public class UserProfileActivity {
+import android.support.v7.app.AppCompatActivity;
+
+public class UserProfileActivity extends AppCompatActivity{
 }

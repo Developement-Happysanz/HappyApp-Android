@@ -21,7 +21,7 @@ public class SocialLoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.login_activity);
-        login_linkedin_btn = (Button) findViewById(R.id.login_button);
+        login_linkedin_btn = (Button) findViewById(R.id.linkedin_login);
                 login_linkedin_btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

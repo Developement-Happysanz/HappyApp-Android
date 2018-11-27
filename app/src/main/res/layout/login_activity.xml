@@ -5,29 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+
     tools:context=".activity.SocialLoginActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/linked"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="LinkedIn"
-            android:textSize="20dp" />
 
         <Button
-            android:id="@+id/login_button"
+            android:id="@+id/linkedin_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Linkedin"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/fb_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linkedin"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/gplus_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linkedin"
             android:layout_marginBottom="15dp"/>
     </LinearLayout>
 </LinearLayout>

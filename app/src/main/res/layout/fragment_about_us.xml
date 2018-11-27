@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="60dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/shadow_bottom"
+            android:layout_below="@id/toolbar_result"/>
+
+        <ImageView
+            android:id="@+id/back_res"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:minHeight="60dp"
+            android:paddingEnd="15dp"
+            android:src="@drawable/ic_back_button"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:id="@+id/tvtitletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:minHeight="60dp"
+            android:layout_toRightOf="@+id/back_res"
+            android:padding="5dp"
+            android:text="About Us"
+            android:textColor="@color/black"
+            android:textSize="@dimen/actionbarTextSize"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_splash_screen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coming soon"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/india"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="India"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_plus"
+        android:drawableBottom="@drawable/shadow_bottom"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:id="@+id/address_india"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+        android:text="#3, PERKS CAMPUS
+UPPILIPALAYAM,COIMBATORE-641015
+TAMIL NADU"/>
+
+    <TextView
+        android:id="@+id/singapore"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="Singapore"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_plus"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:id="@+id/address_sg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="20dp"
+        android:text="#28 BUKIT PASOH ROAD
+SINGAPORE 089842"/>
+
+</LinearLayout>
