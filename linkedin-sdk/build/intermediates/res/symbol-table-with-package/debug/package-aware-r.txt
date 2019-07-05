@@ -1,0 +1,7 @@
+com.linkedin.android.mobilesdk
+drawable ic_launcher
+drawable ic_youtube
+string update_linkedin_app_cancel
+string update_linkedin_app_download
+string update_linkedin_app_message
+string update_linkedin_app_title

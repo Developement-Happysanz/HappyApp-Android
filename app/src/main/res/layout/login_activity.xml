@@ -21,18 +21,20 @@
             android:text="Linkedin"
             android:layout_marginBottom="15dp"/>
 
-        <Button
-            android:id="@+id/fb_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Linkedin"
-            android:layout_marginBottom="15dp"/>
+        <!--<Button-->
+            <!--android:id="@+id/fb_login"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:padding="15dp"-->
+            <!--android:background="@drawable/ic_fb"-->
+            <!--android:layout_marginBottom="15dp"/>-->
 
-        <Button
-            android:id="@+id/gplus_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Linkedin"
-            android:layout_marginBottom="15dp"/>
+        <!--<Button-->
+            <!--android:id="@+id/gplus_login"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:padding="15dp"-->
+            <!--android:background="@drawable/ic_google_plus"-->
+            <!--android:layout_marginBottom="15dp"/>-->
     </LinearLayout>
 </LinearLayout>
